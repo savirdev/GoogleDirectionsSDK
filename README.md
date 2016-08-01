@@ -6,7 +6,7 @@ An open source toolset for building applications that need the Google Directions
 
 The following code retrieve a DirectionResponse object that contains the information of the directions from a point to others.
 
-```
+```java
 DirectionsSdk.init("yourApiKey");
         DirectionsRequest directionsRequest = DirectionsRequest.newBuilder()
                 .withOrigin(new Location(19.558426, -99.147803))
